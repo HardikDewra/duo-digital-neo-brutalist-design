@@ -1576,6 +1576,17 @@ body {
     gap: 1rem;
 }
 
+.footer-credit {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(245, 243, 239, 0.1);
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
+
 .footer-legal {
     display: flex;
     gap: 1rem;

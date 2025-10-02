@@ -210,29 +210,71 @@ Potential additions:
 - [ ] Multi-language support
 - [ ] Backend integration for form submissions
 
-## 🤝 Credits
+## 🤝 Credits & Attribution
 
-**Design Concept**: Duo Digital Brand Guidelines  
-**Implementation**: Custom HTML/CSS/JS  
-**Inspiration**: Swiss Design, Neo-Brutalism, Blueprint Aesthetics  
+### Designed & Developed By
+**Hardik Dewra**  
+Full-Stack Developer & UI/UX Designer
+
+📧 Email: [thehardikdewra@gmail.com](mailto:thehardikdewra@gmail.com)  
+🌐 Portfolio: [hardikdewra.com](https://hardikdewra.com)  
+💼 LinkedIn: [linkedin.com/in/hardikdewra](https://www.linkedin.com/in/hardikdewra/)  
+🎨 Agency: [wedesignlandingpages.com](https://wedesignlandingpages.com)
+
+---
+
+**Project Created For**: Duo Digital (Demo/Portfolio Piece)  
+**Design System**: Neo-Brutalism + Swiss Design Principles  
+**Implementation**: Custom HTML/CSS/Vanilla JavaScript  
+**Inspiration**: Blueprint Aesthetics, Construction, Modern Architecture  
 **Typography**: Google Fonts (Inter, Space Grotesk)
 
 ---
 
-## 📄 License
+## 📄 License & Usage Rights
 
-This project is provided as-is for Duo Digital. All rights reserved.
+**Copyright © 2025 Hardik Dewra. All Rights Reserved.**
+
+This project is a **portfolio demonstration** and **design showcase** created by Hardik Dewra for the Duo Digital brand.
+
+### ✅ You MAY:
+- View and study the code for educational purposes
+- Reference the design concepts in your own learning
+- Share links to this repository
+
+### ❌ You MAY NOT:
+- Use this design commercially without explicit written permission
+- Copy, modify, or redistribute this code for client projects
+- Remove or modify attribution/credits
+- Claim this work as your own
+
+### 💼 Commercial Use & Custom Projects
+
+**Interested in using this design or hiring me for a similar project?**
+
+I'd love to work with you! I can provide:
+- ✨ Custom Figma design files
+- 🎨 Tailored design systems
+- 💻 Full development implementation
+- 🚀 Ongoing support and iterations
+
+**📩 Let's Connect:**  
+Reach out via [email](mailto:thehardikdewra@gmail.com) or [LinkedIn](https://www.linkedin.com/in/hardikdewra/) to discuss your project.
+
+For commercial licensing or custom development work, please contact me directly.
 
 ---
 
 ## 📞 Contact
 
-**Duo Digital**  
-Email: hello@duodigital.com  
-Phone: +1 (310) 555-0100  
-Location: Los Angeles, California
+**Hardik Dewra**  
+Full-Stack Developer | UI/UX Designer  
+📧 thehardikdewra@gmail.com  
+🌐 [hardikdewra.com](https://hardikdewra.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/hardikdewra/)
 
 ---
 
-**Built for builders.** 🏗️ **Strong. Precise. Innovative.**
+**Built for builders.** 🏗️ **Strong. Precise. Innovative.**  
+*Created with ❤️ by Hardik Dewra*
 
