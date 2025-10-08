@@ -14,7 +14,7 @@ If you have VS Code or Cursor:
 ### Option 3: Command Line
 ```bash
 # Navigate to the project folder
-cd "/Users/hardikdewra/Documents/Cursor Projects/DUO DIGITAL - NEO BRUTALISM PROJECT"
+cd "/Users/hardikdewra/Documents/Cursor Projects/Trio Digital - NEO BRUTALISM PROJECT"
 
 # Open in default browser (macOS)
 open index.html
