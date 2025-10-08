@@ -1440,17 +1440,17 @@ body {
     background-color: var(--blueprint-blue);
     color: var(--off-white);
     border-color: var(--off-white);
-    box-shadow: 6px 6px 0 var(--off-white);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .cta-section .btn-secondary:hover {
     transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--off-white);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
 }
 
 .cta-section .btn-secondary:active {
     transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--off-white);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .cta-contact {
