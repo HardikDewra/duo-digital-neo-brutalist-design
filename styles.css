@@ -206,9 +206,9 @@ body {
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: auto;
     min-height: 100vh;
-    padding: 10rem 2rem 6rem;
+    padding: 10rem 0 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,6 +221,8 @@ body {
     position: relative;
     z-index: 10;
     overflow: visible;
+    padding: 0 2rem;
+    margin: 0 auto;
 }
 
 .hero-label {
@@ -288,6 +290,13 @@ body {
     text-shadow: none;
 }
 
+.title-outline {
+    color: var(--off-white);
+    -webkit-text-stroke: 4px var(--concrete-dark);
+    paint-order: stroke fill;
+    text-shadow: 6px 6px 0 rgba(42, 42, 42, 0.2);
+}
+
 @keyframes titleReveal {
     to {
         transform: translateY(0);
@@ -327,7 +336,7 @@ body {
 .hero-cta-group {
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
