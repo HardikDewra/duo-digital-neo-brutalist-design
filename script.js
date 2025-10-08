@@ -114,10 +114,10 @@ function initScrollAnimations() {
     window.addEventListener('scroll', () => {
         const scrolled = window.pageYOffset;
         const heroTitle = document.querySelector('.hero-title');
-        
+
         if (heroTitle && scrolled < window.innerHeight) {
             heroTitle.style.transform = `translateY(${scrolled * 0.15}px)`;
-            heroTitle.style.opacity = 1 - (scrolled / 600);
+            // Removed opacity fade effect - keep title fully visible
         }
     });
 }

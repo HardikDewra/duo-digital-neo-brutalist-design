@@ -111,6 +111,7 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
+    margin-left: 0;
 }
 
 .logo-text {
@@ -219,6 +220,7 @@ body {
     width: 100%;
     position: relative;
     z-index: 10;
+    overflow: visible;
 }
 
 .hero-label {
@@ -275,6 +277,15 @@ body {
     -webkit-text-stroke: 4px var(--blueprint-blue);
     paint-order: stroke fill;
     text-shadow: 6px 6px 0 rgba(0, 102, 204, 0.2);
+}
+
+.title-line-highlight {
+    background-color: var(--blueprint-blue);
+    padding: 0.1em 0.2em;
+    display: inline-block;
+    color: var(--off-white);
+    -webkit-text-stroke: 0;
+    text-shadow: none;
 }
 
 @keyframes titleReveal {
@@ -341,16 +352,17 @@ body {
 .btn-primary {
     background-color: var(--concrete-dark);
     color: var(--off-white);
+    box-shadow: 6px 6px 0 var(--blueprint-blue);
 }
 
 .btn-primary:hover {
     transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--concrete-dark);
+    box-shadow: 3px 3px 0 var(--blueprint-blue);
 }
 
 .btn-primary:active {
     transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--concrete-dark);
+    box-shadow: 0 0 0 var(--blueprint-blue);
 }
 
 .btn-secondary {
