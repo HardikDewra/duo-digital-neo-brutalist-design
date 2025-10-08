@@ -211,7 +211,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .hero-container {
@@ -316,7 +316,7 @@ body {
 .hero-cta-group {
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 0;
     flex-wrap: wrap;
 }
 
