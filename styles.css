@@ -335,6 +335,7 @@ body {
     position: relative;
     text-decoration: none;
     box-shadow: 6px 6px 0 var(--concrete-dark);
+    overflow: hidden;
 }
 
 .btn-primary {
@@ -1398,37 +1399,64 @@ body {
 }
 
 .cta-section .btn-primary {
-    background-color: var(--concrete-dark);
-    color: var(--off-white);
-    border-color: var(--concrete-dark);
-    box-shadow: 6px 6px 0 var(--off-white);
+    background-color: var(--off-white);
+    color: var(--concrete-dark);
+    border-color: var(--off-white);
+    box-shadow: none;
+    transform: none;
+}
+
+.cta-section .btn-primary > * {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-section .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--signal-orange);
+    transition: left var(--transition-speed) var(--transition-ease);
+    z-index: 0;
 }
 
 .cta-section .btn-primary:hover {
-    transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--off-white);
+    color: var(--concrete-dark);
+    border-color: var(--signal-orange);
+    transform: none;
+    box-shadow: none;
+}
+
+.cta-section .btn-primary:hover::before {
+    left: 0;
 }
 
 .cta-section .btn-primary:active {
-    transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--off-white);
+    transform: none;
+    box-shadow: none;
 }
 
 .cta-section .btn-secondary {
-    background-color: var(--blueprint-blue);
+    background-color: transparent;
     color: var(--off-white);
     border-color: var(--off-white);
-    box-shadow: 6px 6px 0 var(--off-white);
+    box-shadow: none;
+    transform: none;
 }
 
 .cta-section .btn-secondary:hover {
-    transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--off-white);
+    background-color: var(--off-white);
+    color: var(--blueprint-blue);
+    transform: none;
+    box-shadow: none;
 }
 
 .cta-section .btn-secondary:active {
-    transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--off-white);
+    transform: none;
+    box-shadow: none;
 }
 
 .cta-contact {
