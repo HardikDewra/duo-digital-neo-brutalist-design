@@ -1,8 +1,8 @@
-# DUO DIGITAL — Neo-Brutalist Website
+# TRIO DIGITAL — Neo-Brutalist Website
 
 A modern, bold marketing agency website featuring Swiss-inspired Neo-Brutalist design principles with construction and blueprint aesthetics.
 
-![DUO DIGITAL](https://img.shields.io/badge/Design-Neo--Brutalist-0066CC?style=for-the-badge)
+![TRIO DIGITAL](https://img.shields.io/badge/Design-Neo--Brutalist-0066CC?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Ready-success?style=for-the-badge)
 
 ## 🎨 Design Philosophy
@@ -76,7 +76,7 @@ No build process required! This is pure HTML, CSS, and vanilla JavaScript.
 ### File Structure
 
 ```
-DUO DIGITAL - NEO BRUTALISM PROJECT/
+TRIO DIGITAL - NEO BRUTALISM PROJECT/
 │
 ├── index.html          # Main HTML structure
 ├── styles.css          # All styling (Neo-Brutalist design system)
@@ -223,10 +223,10 @@ Full-Stack Developer & UI/UX Designer
 
 ---
 
-**Project Created For**: Duo Digital (Demo/Portfolio Piece)  
-**Design System**: Neo-Brutalism + Swiss Design Principles  
-**Implementation**: Custom HTML/CSS/Vanilla JavaScript  
-**Inspiration**: Blueprint Aesthetics, Construction, Modern Architecture  
+**Project Created For**: Trio Digital (Demo/Portfolio Piece)
+**Design System**: Neo-Brutalism + Swiss Design Principles
+**Implementation**: Custom HTML/CSS/Vanilla JavaScript
+**Inspiration**: Blueprint Aesthetics, Construction, Modern Architecture
 **Typography**: Google Fonts (Inter, Space Grotesk)
 
 ---
@@ -235,7 +235,7 @@ Full-Stack Developer & UI/UX Designer
 
 **Copyright © 2025 Hardik Dewra. All Rights Reserved.**
 
-This project is a **portfolio demonstration** and **design showcase** created by Hardik Dewra for the Duo Digital brand.
+This project is a **portfolio demonstration** and **design showcase** created by Hardik Dewra for the Trio Digital brand.
 
 ### ✅ You MAY:
 - View and study the code for educational purposes

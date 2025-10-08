@@ -107,10 +107,10 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-family: var(--font-primary);
-    font-weight: 900;
+    font-family: var(--font-secondary);
+    font-weight: 700;
     font-size: 1.5rem;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.05em;
 }
 
 .logo-text {
@@ -161,34 +161,28 @@ body {
 
 .nav-cta {
     padding: 0.75rem 1.5rem;
-    background-color: var(--concrete-dark);
+    background-color: var(--blueprint-blue);
     color: var(--off-white);
-    border: none;
+    border: 3px solid var(--concrete-dark);
     font-family: var(--font-secondary);
     font-size: 0.875rem;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-decoration: none;
     cursor: pointer;
-    transition: all var(--transition-speed) var(--transition-ease);
+    transition: all 0.15s ease;
     position: relative;
-    overflow: hidden;
+    box-shadow: 4px 4px 0 var(--concrete-dark);
 }
 
-.nav-cta::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: var(--blueprint-blue);
-    transition: left var(--transition-speed) var(--transition-ease);
-    z-index: -1;
+.nav-cta:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--concrete-dark);
 }
 
-.nav-cta:hover::before {
-    left: 0;
+.nav-cta:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .nav-toggle {
@@ -211,6 +205,7 @@ body {
 
 .hero {
     position: relative;
+    height: 100vh;
     min-height: 100vh;
     padding: 10rem 2rem 6rem;
     display: flex;
@@ -279,7 +274,7 @@ body {
     color: var(--off-white);
     -webkit-text-stroke: 4px var(--blueprint-blue);
     paint-order: stroke fill;
-    text-shadow: 4px 4px 0 rgba(0, 102, 204, 0.15);
+    text-shadow: 6px 6px 0 rgba(0, 102, 204, 0.2);
 }
 
 @keyframes titleReveal {
@@ -333,12 +328,11 @@ body {
     letter-spacing: 0.1em;
     border: none;
     cursor: pointer;
-    transition: all var(--transition-speed) var(--transition-ease);
+    transition: all 0.15s ease;
     display: flex;
     align-items: center;
     gap: 1rem;
     position: relative;
-    overflow: hidden;
     text-decoration: none;
 }
 
@@ -346,32 +340,34 @@ body {
     background-color: var(--concrete-dark);
     color: var(--off-white);
     border: 3px solid var(--concrete-dark);
-}
-
-.btn-primary::before {
-    display: none;
-}
-
-.btn-primary:hover::before {
-    display: none;
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .btn-primary:hover {
-    border-color: var(--blueprint-blue);
-    background-color: var(--blueprint-blue);
-    box-shadow: 6px 6px 0 var(--concrete-dark);
-    transform: translateY(-2px);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
+}
+
+.btn-primary:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .btn-secondary {
     background-color: transparent;
     color: var(--concrete-dark);
     border: 3px solid var(--concrete-dark);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .btn-secondary:hover {
-    background-color: var(--concrete-dark);
-    color: var(--off-white);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
+}
+
+.btn-secondary:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .btn-arrow {
@@ -384,10 +380,19 @@ body {
 }
 
 .hero-metrics {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    width: 100%;
+    max-width: var(--grid-max-width);
+    padding: 4rem 2rem;
+    background-color: var(--off-white);
     display: grid;
     grid-template-columns: auto 1px auto 1px auto;
     gap: 3rem;
     align-items: center;
+    z-index: 20;
 }
 
 .metric-item {
@@ -1088,22 +1093,23 @@ body {
     justify-content: center;
     font-size: 1.5rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.15s ease;
     flex-shrink: 0;
     position: relative;
     z-index: 12;
+    box-shadow: 4px 4px 0 var(--concrete-dark);
 }
 
 .carousel-arrow:hover {
     background-color: var(--blueprint-blue);
     border-color: var(--blueprint-blue);
-    box-shadow: 4px 4px 0 var(--concrete-dark);
-    transform: translateY(-2px);
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--concrete-dark);
 }
 
 .carousel-arrow:active {
-    transform: translateY(0);
-    box-shadow: 2px 2px 0 var(--concrete-dark);
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .carousel-arrow:disabled {
@@ -1263,7 +1269,7 @@ body {
 }
 
 .about-cta {
-    display: inline-block;
+    display: inline-flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 0.9rem;
@@ -1395,29 +1401,37 @@ body {
 }
 
 .cta-section .btn-primary {
-    background-color: var(--off-white);
-    color: var(--concrete-dark);
-    border-color: var(--off-white);
-}
-
-.cta-section .btn-primary::before {
-    background-color: var(--signal-orange);
+    background-color: var(--concrete-dark);
+    color: var(--off-white);
+    border: 3px solid var(--concrete-dark);
+    box-shadow: 6px 6px 0 var(--off-white);
 }
 
 .cta-section .btn-primary:hover {
-    color: var(--concrete-dark);
-    border-color: var(--signal-orange);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--off-white);
+}
+
+.cta-section .btn-primary:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 var(--off-white);
 }
 
 .cta-section .btn-secondary {
     background-color: transparent;
     color: var(--off-white);
-    border-color: var(--off-white);
+    border: 3px solid var(--off-white);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .cta-section .btn-secondary:hover {
-    background-color: var(--off-white);
-    color: var(--blueprint-blue);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
+}
+
+.cta-section .btn-secondary:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .cta-contact {
@@ -1484,8 +1498,8 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-family: var(--font-primary);
-    font-weight: 900;
+    font-family: var(--font-secondary);
+    font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }

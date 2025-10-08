@@ -1,5 +1,5 @@
 // ===========================
-// DUO DIGITAL - INTERACTIVE SCRIPTS
+// TRIO DIGITAL - INTERACTIVE SCRIPTS
 // Neo-Brutalist Swiss Design
 // ===========================
 
@@ -458,11 +458,11 @@ console.log(`
 %c
 ████████████████████████████████████████
 █                                      █
-█   DUO DIGITAL                        █
+█   TRIO DIGITAL                       █
 █   Neo-Brutalist Design System        █
 █   Built for Builders                 █
 █                                      █
-█   Website: duodigital.com            █
+█   Website: triodigital.com           █
 █   Year: 2025                         █
 █                                      █
 ████████████████████████████████████████
