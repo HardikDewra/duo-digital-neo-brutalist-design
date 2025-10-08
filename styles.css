@@ -1420,20 +1420,20 @@ body {
 }
 
 .cta-section .btn-primary {
-    background-color: var(--concrete-dark);
-    color: var(--off-white);
-    border-color: var(--concrete-dark);
-    box-shadow: 6px 6px 0 var(--off-white);
+    background-color: var(--off-white);
+    color: var(--concrete-dark);
+    border-color: var(--off-white);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .cta-section .btn-primary:hover {
     transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--off-white);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
 }
 
 .cta-section .btn-primary:active {
     transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--off-white);
+    box-shadow: 0 0 0 var(--concrete-dark);
 }
 
 .cta-section .btn-secondary {
