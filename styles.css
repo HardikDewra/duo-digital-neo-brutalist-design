@@ -161,7 +161,7 @@ body {
 
 .nav-cta {
     padding: 0.75rem 1.5rem;
-    background-color: var(--blueprint-blue);
+    background-color: var(--blueprint-blue) !important;
     color: var(--off-white);
     border: 3px solid var(--concrete-dark);
     font-family: var(--font-secondary);
@@ -172,16 +172,16 @@ body {
     cursor: pointer;
     transition: all 0.15s ease;
     position: relative;
-    box-shadow: 4px 4px 0 var(--concrete-dark);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .nav-cta:hover {
-    transform: translate(2px, 2px);
-    box-shadow: 2px 2px 0 var(--concrete-dark);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
 }
 
 .nav-cta:active {
-    transform: translate(4px, 4px);
+    transform: translate(6px, 6px);
     box-shadow: 0 0 0 var(--concrete-dark);
 }
 
@@ -326,7 +326,7 @@ body {
     font-size: 0.875rem;
     font-weight: 700;
     letter-spacing: 0.1em;
-    border: none;
+    border: 3px solid var(--concrete-dark);
     cursor: pointer;
     transition: all 0.15s ease;
     display: flex;
@@ -334,13 +334,12 @@ body {
     gap: 1rem;
     position: relative;
     text-decoration: none;
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .btn-primary {
     background-color: var(--concrete-dark);
     color: var(--off-white);
-    border: 3px solid var(--concrete-dark);
-    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .btn-primary:hover {
@@ -354,10 +353,8 @@ body {
 }
 
 .btn-secondary {
-    background-color: transparent;
+    background-color: var(--off-white);
     color: var(--concrete-dark);
-    border: 3px solid var(--concrete-dark);
-    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .btn-secondary:hover {
@@ -1097,18 +1094,18 @@ body {
     flex-shrink: 0;
     position: relative;
     z-index: 12;
-    box-shadow: 4px 4px 0 var(--concrete-dark);
+    box-shadow: 6px 6px 0 var(--concrete-dark);
 }
 
 .carousel-arrow:hover {
     background-color: var(--blueprint-blue);
     border-color: var(--blueprint-blue);
-    transform: translate(2px, 2px);
-    box-shadow: 2px 2px 0 var(--concrete-dark);
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0 var(--concrete-dark);
 }
 
 .carousel-arrow:active {
-    transform: translate(4px, 4px);
+    transform: translate(6px, 6px);
     box-shadow: 0 0 0 var(--concrete-dark);
 }
 
@@ -1403,7 +1400,7 @@ body {
 .cta-section .btn-primary {
     background-color: var(--concrete-dark);
     color: var(--off-white);
-    border: 3px solid var(--concrete-dark);
+    border-color: var(--concrete-dark);
     box-shadow: 6px 6px 0 var(--off-white);
 }
 
@@ -1418,20 +1415,20 @@ body {
 }
 
 .cta-section .btn-secondary {
-    background-color: transparent;
+    background-color: var(--blueprint-blue);
     color: var(--off-white);
     border: 3px solid var(--off-white);
-    box-shadow: 6px 6px 0 var(--concrete-dark);
+    box-shadow: 6px 6px 0 var(--off-white);
 }
 
 .cta-section .btn-secondary:hover {
     transform: translate(3px, 3px);
-    box-shadow: 3px 3px 0 var(--concrete-dark);
+    box-shadow: 3px 3px 0 var(--off-white);
 }
 
 .cta-section .btn-secondary:active {
     transform: translate(6px, 6px);
-    box-shadow: 0 0 0 var(--concrete-dark);
+    box-shadow: 0 0 0 var(--off-white);
 }
 
 .cta-contact {
