@@ -1417,7 +1417,7 @@ body {
 .cta-section .btn-secondary {
     background-color: var(--blueprint-blue);
     color: var(--off-white);
-    border: 3px solid var(--off-white);
+    border-color: var(--off-white);
     box-shadow: 6px 6px 0 var(--off-white);
 }
 
